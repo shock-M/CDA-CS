@@ -5,9 +5,9 @@
 Python library dependencies:
 - torch>=1.0.1
 - scipy>=0.14.0
-- numpy -v : 1.19.3
-- gensim -v : 3.8.1
-- others: sklearn
+- numpy
+- gensim
+- sklearn
 
 ## 2.Original Data
 Dataset:
@@ -15,18 +15,18 @@ Wasi Uddin Ahmad, Saikat Chakraborty, Baishakhi Ray, and Kai-Wei Chang. A transf
 
 ## 3. Clustering
 
+- tf_idf_vec.py
+- 
+  ```python
+  python tf_idf_vec.py 
+  ```
+
+You can get the TF_IDF vetor of input file, please place this input file into the data folder, and run:
+
 - Kmeans.py
 
   ```python
-  python remove_words.py 
-  ```
-
-If you want to replace the dataset, you can use the variable dataset = 'dataset name' in the remove_words.py file. 
-
-- build_graph.py
-
-  ```python
-  python build_graph.py
+  python Kmeans.py 
   ```
 
 If you want to replace the dataset, you can use the variable dataset = 'dataset name' in the build_graph.py file. 
