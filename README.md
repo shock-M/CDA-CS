@@ -9,11 +9,9 @@ Python library dependencies:
 - gensim -v : 3.8.1
 - others: sklearn
 
-## 2. Data Preprocessing
-
+## 2.Original Data
 Dataset:
-
-Everton da S. Maldonado, Emad Shihab, Nikolaos Tsantalis: Using Natural Language Processing to Automatically Detect Self-Admitted Technical Debt. IEEE Trans. Software Eng. 43(11): 1044-1062 (2017)
+Wasi Uddin Ahmad, Saikat Chakraborty, Baishakhi Ray, and Kai-Wei Chang. A transformer-based approach for source code summarization.In Dan Jurafsky, Joyce Chai, and Natalie Schluter, editors, Proceedings of the 58th Annual Meeting of the Association for Computational Linguistics, ACL 2020, Online, July 5-10, 2020, pages 4998–5007. Association for Computational Linguistics, 2020.
 
 ## 3. Clustering
 
@@ -43,12 +41,12 @@ If you want to replace the dataset, you can use the variable dataset = 'dataset 
 
 You can specify your own with --output. You can also specify the number of generated augmented sentences per original sentence using --num_aug.
 
-## 5. Test
+## 5. New Dataset
 
-- test.py
+- split.py
 
   ```
-  python test.py
+  python split.py
   ```
 
-If you want to replace the dataset, you can use the variable dataset = 'dataset name' in the test.py file. 
+You need to split augmented.txt into javadoc.original and code.original_subtoken.
