@@ -10,9 +10,9 @@ Python library dependencies:
 - NLTK
 - sklearn
 
-## 2.Original Data
+## 2. Original Data
 Dataset:
-Wasi Uddin Ahmad, Saikat Chakraborty, Baishakhi Ray, and Kai-Wei Chang. A transformer-based approach for source code summarization.In Dan Jurafsky, Joyce Chai, and Natalie Schluter, editors, Proceedings of the 58th Annual Meeting of the Association for Computational Linguistics, ACL 2020, Online, July 5-10, 2020, pages 4998–5007. Association for Computational Linguistics, 2020.
+Wasi Uddin Ahmad, Saikat Chakraborty, Baishakhi Ray, and Kai-Wei Chang. A transformer-based approach for source code summarization. ACL 2020, Online, July 5-10, 2020, pages 4998–5007. Association for Computational Linguistics, 2020.
 
 ## 3. Clustering
 
