@@ -5,10 +5,10 @@
 Python library dependencies:
 - torch>=1.0.1
 - scipy>=0.14.0
-- numpy
-- gensim
-- NLTK
-- sklearn
+- numpy -v: 1.19.1
+- gensim -v: 3.8.1
+- NLTK -v: 3.5
+- sklearn -v: 1.19.0
 
 ## 2. Original Data
 Dataset:
