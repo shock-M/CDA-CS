@@ -37,7 +37,7 @@ In this way, the data that needs to be data augmentation can be obtained.
 - eda_uad_bert_augment
 
   ```python
-  python eda_uad_bert_augment.py --input=train.txt --output=augmented.txt --num_aug=16
+  python eda_uad_bert_augment.py --input=train.txt --output=augmented.txt --num_aug=20
   ```
 
 You can specify your own with --output. You can also specify the number of generated augmented sentences per original sentence using --num_aug.
