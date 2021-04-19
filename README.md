@@ -34,7 +34,8 @@ In this way, the data that needs to be data augmentation can be obtained.
 
 ## 4. Data Augmentation
 
-- eda_uad_bert_augment
+- eda_uad_bert_augment.py
+- eda_uda_bert.py
 
   ```python
   python eda_uad_bert_augment.py --input=train.txt --output=augmented.txt --num_aug=20
